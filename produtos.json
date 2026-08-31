@@ -1,0 +1,38 @@
+[
+{
+    "nome": "Vela Aromática Lembrança Rústico Chique",
+    "descricao": "Uma luz para celebrar momentos especiais, cumplicidade e história. Esta vela artesanal combina a delicadeza de uma flor de cera texturizada com o toque rústico e a elegância da renda. Perfeita para encantar seus convidados em celebrações inesquecíveis. Personalize a tag com a sua data e eternize esta memória.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod1.png"
+  },
+  {
+    "nome": "Arranjo Floral de Velas no Vaso de Vidro",
+    "descricao": "A delicadeza de um arranjo floral que nunca murcha e traz a luz aconchegante do fogo. Montado em um elegante vaso de vidro com base de musgo natural, este arranjo traz diversas flores de cera esculpidas à mão em tons de rosa e pêssego, combinadas com folhagens decorativas. Uma peça central sofisticada que une arte, aroma e decoração para encantar qualquer ambiente.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod2.png"
+  },
+  {
+    "nome": "Lembrancinha Vela Ursinho na Embalagem de Tule",
+    "descricao": "Fofura e delicadeza em forma de luz para dar as boas-vindas aos momentos mais doces. Esta vela em formato de ursinho artesanal é moldada em cera vegetal com detalhes minimalistas e lacinho de cetim. Embalada em saquinho de tule com laço delicado, é acompanhada por uma tag personalizada para marcar chás de bebê, maternidade ou aniversários com uma memória perfumada inesquecível.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod3.png"
+  },
+  {
+    "nome": "Vela Aromática Rosa no Copo de Vidro",
+    "descricao": "Elegância e delicadeza em uma peça única. Apresentada em copo de vidro transparente, traz no topo uma linda flor de cera esculpida com detalhes sutis em tom terracota. Perfeita para criar uma atmosfera acolhedora, perfumar o ambiente ou presentear com sofisticação.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod4.png"
+  },
+  {
+    "nome": "Arranjo de Velas Rosas e Margarida Lilás",
+    "descricao": "A delicadeza do lilás traduzida em um arranjo artesanal único. Combinando rosas e margarida de cera meticulosamente moldadas à mão com raminhos de folhagens secas, esta peça no copo de vidro traz serenidade, perfume e uma beleza atemporal para decorar e iluminar qualquer ambiente.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod5.png"
+  },
+  {
+    "nome": "Vela Decorativa Buda com Manto Dourado",
+    "descricao": "Harmonia, paz e sofisticação para o seu ambiente. Esta peça artesanal em formato de Buda traz detalhes minuciosos esculpidos à mão, enriquecida com o acabamento nobre do manto dourado. Ideal para compor cantinhos de meditação, criar rituais de relaxamento e elevar a energia do lar com beleza e serenidade.",
+    "preco": "R$ 00,00",
+    "imagem": "img/prod6.png"
+  }
+]
