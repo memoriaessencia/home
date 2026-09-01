@@ -21,6 +21,9 @@
   --highlight-color: #C47B49;   /* Cobre mais vivo para detalhes */
   
   --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* NOVAS VARIÁVEIS DE FONTE */
+  --font-main: 'Montserrat', sans-serif;
+  --font-title: 'Cormorant Garamond', serif;
 }
 
 
@@ -30,6 +33,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  font-weight: 400;
 }
  
 .header {
@@ -43,7 +47,11 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   z-index: 1000;
 }
-
+h1, h2, h3, .logo {
+  font-family: var(--font-title);
+  letter-spacing: 0.7px;
+  font-weight: bold;
+}
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
