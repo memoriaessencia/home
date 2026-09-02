@@ -301,3 +301,163 @@ h1, h2, h3, .logo {
   margin-bottom: 1.2rem;
   line-height: 1.8;
 }
+
+.instructions-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 40px 30px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  text-align: center;
+}
+
+.instructions-card h1 {
+  font-family: var(--font-serif);
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.instructions-card .subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ==========================================================
+   LISTA DE INSTRUÇÕES COM ÍCONES
+   ========================================================== */
+.instructions-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+.instructions-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 12px;
+  border-bottom: 1px dashed var(--border-color);
+}
+.instructions-list span {
+  font-size: 2.1rem !important; /* Aumentado de 0.95rem para 1.15rem */
+  font-weight: 700;   /* Deixou o texto ligeiramente mais encorpado para facilitar a leitura */
+  color: var(--text-main);
+}
+
+.instructions-list li:last-child {
+  border-bottom: none;
+}
+.instructions-card h1{
+  font-size: 2.2rem !important;
+}
+.instructions-card p{
+  font-size: 2.1rem !important;
+}
+/* Círculo do Ícone */
+.icon-wrapper {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+}
+
+.instructions-list span {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--text-main);
+}
+
+@media (max-width: 480px) {
+  .instructions-card {
+    padding: 30px 20px;
+  }
+
+  .instructions-card h1 {
+    font-size: 1.8rem;
+  }
+
+  .instructions-list span {
+    font-size: 0.88rem;
+  }
+}
+
+/* ==========================================================
+   SEÇÃO DE CONTATO
+   ========================================================== */
+.contact-section {
+  padding: 4rem 1.5rem;
+  text-align: center;
+  background-color: #f4ece4;
+  text-align: center; 
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.contact-section h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 30px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+  transition: all 0.3s ease;
+}
+
+/* Tamanho da fonte dos botões de contato */
+.hero .contact-section .contact-link span {
+  font-size: 1.1rem;
+}
+
+/* Efeito ao passar o mouse */
+.contact-link:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.whatsapp-link:hover {
+  color: #25d366;
+  border-color: #25d366;
+}
+
+.instagram-link:hover {
+  color: #e1306c;
+  border-color: #e1306c;
+}
